@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="boot.pdf">
+  <defs
+     id="defs4">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern7284"
+       id="pattern7651"
+       patternTransform="matrix(10,0,0,10.799302,-191.42858,-879.80888)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6580"
+       id="pattern7284"
+       patternTransform="matrix(10,0,0,10.799302,-160.71429,-880.93146)" />
+    <marker
+       inkscape:stockid="DotS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotS"
+       style="overflow:visible">
+      <path
+         id="path6098"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.2) translate(7.4, 1)" />
+    </marker>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6547"
+       id="pattern6580"
+       patternTransform="matrix(10,0,0,10,-160.71429,-810.5)" />
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path6034"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <pattern
+       inkscape:stockid="Checkerboard"
+       id="Checkerboard"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="2"
+       width="2"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect4953"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:black;stroke:none" />
+      <rect
+         id="rect4955"
+         height="1"
+         width="1"
+         y="1"
+         x="1"
+         style="fill:black;stroke:none" />
+    </pattern>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3165">
+      <rect
+         style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3167"
+         width="55.714287"
+         height="41.42857"
+         x="392.85715"
+         y="282.36218"
+         rx="9.4910011"
+         ry="9.4910011" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3165-7">
+      <rect
+         style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3167-0"
+         width="55.714287"
+         height="41.42857"
+         x="392.85715"
+         y="282.36218"
+         rx="9.4910011"
+         ry="9.4910011" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3165-8">
+      <rect
+         style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3167-7"
+         width="55.714287"
+         height="41.42857"
+         x="392.85715"
+         y="282.36218"
+         rx="9.4910011"
+         ry="9.4910011" />
+    </clipPath>
+    <pattern
+       patternTransform="matrix(10,0,0,10,29.285714,-6.2142857)"
+       id="pattern6547"
+       xlink:href="#Checkerboard-9"
+       inkscape:collect="always" />
+    <pattern
+       inkscape:stockid="Checkerboard"
+       id="Checkerboard-9"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="2"
+       width="2"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect4953-2"
+         height="1"
+         width="1"
+         y="0"
+         x="0"
+         style="fill:black;stroke:none" />
+      <rect
+         id="rect4955-2"
+         height="1"
+         width="1"
+         y="1"
+         x="1"
+         style="fill:black;stroke:none" />
+    </pattern>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6566">
+      <rect
+         style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:2;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect6568"
+         width="90"
+         height="100"
+         x="175.67474"
+         y="23.907642"
+         rx="9.4910011"
+         ry="9.4910011"
+         transform="matrix(0.97640069,-0.21596687,0.21596687,0.97640069,0,0)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6572">
+      <rect
+         style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:2;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect6574"
+         width="200"
+         height="80"
+         x="155.4456"
+         y="128.46899"
+         rx="9.4910011"
+         ry="9.4910011"
+         transform="matrix(0.97205199,-0.2347657,0.2347657,0.97205199,0,0)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3165-7-9">
+      <rect
+         style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3167-0-7"
+         width="55.714287"
+         height="41.42857"
+         x="392.85715"
+         y="282.36218"
+         rx="9.4910011"
+         ry="9.4910011" />
+    </clipPath>
+    <marker
+       inkscape:stockid="DotS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotS-9"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6098-1"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.2,0,0,0.2,1.48,0.2)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="469.07445"
+     inkscape:cy="378.03504"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-grids="false"
+     inkscape:window-width="556"
+     inkscape:window-height="1011"
+     inkscape:window-x="1120"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 250,1000.3622 0,-740.00002"
+       id="path2987"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 450,260.36218 0,740.00002"
+       id="path2989"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="257.19653"
+       y="216.07646"
+       id="text2991"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2993"
+         x="259.19653"
+         y="216.07646"
+         style="font-size:16px">P<tspan
+   style="font-size:16px;text-align:center;text-anchor:middle"
+   id="tspan3347">0 C00 : </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="257.19653"
+         y="236.07646"
+         id="tspan3351"
+         style="font-size:16px;text-align:center;text-anchor:middle">Hyperviseur</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="451.69287"
+       y="214.63559"
+       id="text2995"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2997"
+         x="453.69287"
+         y="214.63559"
+         style="font-size:16px;text-align:center;text-anchor:middle">P0 dans le cluster </tspan><tspan
+         sodipodi:role="line"
+         x="451.69287"
+         y="234.63559"
+         id="tspan3001"
+         style="font-size:16px;text-align:center;text-anchor:middle">de boot de l'instance</tspan></text>
+    <rect
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003"
+       width="20"
+       height="50.714287"
+       x="240"
+       y="277.50504"
+       ry="9.4910011"
+       rx="9.4910011" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="482"
+       y="320.36218"
+       id="text3023"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3025"
+         x="482"
+         y="320.36218"
+         style="font-size:12px">Init</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="200"
+       y="310.36218"
+       id="text3034"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3036"
+         x="200"
+         y="310.36218"
+         style="font-size:12px">Init</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="83.714287"
+       y="341.64789"
+       id="text3040"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3042"
+         x="83.714287"
+         y="341.64789"
+         style="font-size:12px">shell % run -nc 2 -i 6</tspan></text>
+    <rect
+       rx="9.4910011"
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-6-7"
+       width="20"
+       height="60"
+       x="410"
+       y="289.50504"
+       ry="9.4910011"
+       clip-path="url(#clipPath3165)"
+       transform="translate(30,49.817254)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 250,338.36218 -60,0"
+       id="path3062"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 510.14025,373.85945 -60,0"
+       id="path3062-5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 450.26786,373.87585 428.125,373.69728"
+       id="path3189"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="521.42859"
+       y="373.25085"
+       id="text3191"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3193"
+         x="521.42859"
+         y="373.25085"
+         style="font-size:12px">wait</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="35.213203"
+       y="375.13358"
+       id="text3215"
+       sodipodi:linespacing="125%"><tspan
+         style="font-size:12px"
+         sodipodi:role="line"
+         id="tspan3217"
+         x="35.213203"
+         y="375.13358">Allocation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:34.63839722px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="101.33296"
+       y="347.12143"
+       id="text3219"
+       sodipodi:linespacing="125%"
+       transform="scale(0.91210617,1.0963636)"><tspan
+         sodipodi:role="line"
+         id="tspan3221"
+         x="101.33296"
+         y="347.12143">{</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="106.37059"
+       y="366.04221"
+       id="text3229"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3231"
+         x="106.37059"
+         y="366.04221"
+         style="font-size:12px">- clusters</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="139.40105"
+       y="353.33661"
+       id="text3233"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3235"
+         x="139.40105"
+         y="353.33661" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="107.34013"
+       y="384.26556"
+       id="text3237"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="107.34013"
+         y="384.26556"
+         style="font-size:12px"
+         id="tspan3245">- canaux des périphériques</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="98.649757"
+       y="435.98639"
+       id="text3323"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="98.649757"
+         y="435.98639"
+         id="tspan3327"
+         style="font-size:12px">Construction arch-info</tspan></text>
+    <rect
+       rx="9.4910011"
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-6-5-6-2"
+       width="20"
+       height="60"
+       x="560.57141"
+       y="23.790754"
+       ry="9.4910011" />
+    <rect
+       rx="9.4910011"
+       style="fill:url(#Checkerboard);fill-opacity:1.0;stroke:#000000;stroke-width:0.50000000000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-6-5-6-2-9"
+       width="20"
+       height="60"
+       x="561.42859"
+       y="112.36218"
+       ry="9.4910011" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="664.53931"
+       y="35.219322"
+       id="text5753"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5755"
+         x="666.53931"
+         y="35.219322"
+         style="font-size:16px">Code exécuté dans </tspan><tspan
+         sodipodi:role="line"
+         x="666.53931"
+         y="55.219322"
+         id="tspan5757"
+         style="font-size:16px">le cluster </tspan><tspan
+         sodipodi:role="line"
+         x="664.53931"
+         y="75.219322"
+         id="tspan5759"
+         style="font-size:16px">Hyperviseur</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="662.70404"
+       y="125.21933"
+       id="text5761"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5763"
+         x="662.70404"
+         y="125.21933"
+         style="font-size:16px">Code exécuté dans</tspan><tspan
+         sodipodi:role="line"
+         x="664.70404"
+         y="145.21933"
+         id="tspan5765"
+         style="font-size:16px">le cluster 0 </tspan><tspan
+         sodipodi:role="line"
+         x="662.70404"
+         y="165.21933"
+         id="tspan5767"
+         style="font-size:16px">de l'instance</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="78.785713"
+       y="490.17838"
+       id="text5769"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5771"
+         x="78.785713"
+         y="490.17838"
+         style="font-size:12px">Copie</tspan><tspan
+         sodipodi:role="line"
+         x="78.785713"
+         y="505.17838"
+         style="font-size:18px"
+         id="tspan6015" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28.47714806px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="120.04732"
+       y="479.06201"
+       id="text3219-1"
+       sodipodi:linespacing="125%"
+       transform="scale(0.9675577,1.0335301)"><tspan
+         sodipodi:role="line"
+         id="tspan3221-2"
+         x="120.04732"
+         y="479.06201">{</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="90"
+       y="532.36218"
+       id="text5794"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5796"
+         x="90"
+         y="532.36218" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="134.57143"
+       y="483.8212"
+       id="text5798"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5800"
+         x="134.57143"
+         y="483.8212"
+         style="font-size:12px">- Arch-info</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="134.57143"
+       y="495.8212"
+       id="text5802"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5804"
+         x="134.57143"
+         y="495.8212"
+         style="font-size:12px">- Bootloader</tspan></text>
+    <rect
+       rx="9.4910011"
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-6-7-9"
+       width="20"
+       height="60"
+       x="410"
+       y="289.50504"
+       ry="9.4910011"
+       clip-path="url(#clipPath3165-7)"
+       transform="matrix(-1,0,0,1,670.32183,462.91661)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 190.18158,786.95881 60,0"
+       id="path3062-5-3"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 250.05397,786.97521 22.14286,-0.17857"
+       id="path3189-6"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="154.85211"
+       y="787.65631"
+       id="text3191-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3193-6"
+         x="154.85211"
+         y="787.65631"
+         style="font-size:12px">wait</tspan></text>
+    <rect
+       rx="9.4910011"
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-6-7-92"
+       width="20"
+       height="60"
+       x="410"
+       y="289.50504"
+       ry="9.4910011"
+       clip-path="url(#clipPath3165-8)"
+       transform="matrix(1,0,0,-1,29.734672,1127.2353)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 509.87492,803.19311 -60,0"
+       id="path3062-5-0"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 450.00253,803.17671 -22.14286,0.17857"
+       id="path3189-2"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 249.28571,748.06309 450,803.77738"
+       id="path5930"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="598.5"
+       y="652.36218"
+       id="text5973"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5975"
+         x="600"
+         y="652.36218"
+         style="font-size:12px">Saut à l'adresse de la fonction </tspan><tspan
+         sodipodi:role="line"
+         x="600"
+         y="667.36218"
+         id="tspan5977"
+         style="font-size:12px">de calculs de </tspan><tspan
+         sodipodi:role="line"
+         x="598.5"
+         y="682.36218"
+         id="tspan5979"
+         style="font-size:12px">traduction des Hats</tspan></text>
+    <g
+       id="g7286"
+       transform="translate(30.714286,-1.0394555)">
+      <rect
+         transform="matrix(1,0,0,0.81859979,190,818.97399)"
+         clip-path="url(#clipPath6566)"
+         ry="11.59419"
+         y="41.595432"
+         x="219.32927"
+         height="60"
+         width="20"
+         id="rect3003-6-5-6-2-5"
+         style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.55262965;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         rx="9.4910011" />
+      <rect
+         transform="matrix(1,0,0,0.92598581,160.71429,815.73003)"
+         clip-path="url(#clipPath6572)"
+         ry="10.249619"
+         y="41.544674"
+         x="248.59906"
+         height="60"
+         width="20"
+         id="rect3003-6-5-6-2-9-8"
+         style="fill:url(#pattern7651);fill-opacity:1;stroke:#000000;stroke-width:0.51959842;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         rx="9.4910011" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="597.00598"
+       y="876.83252"
+       id="text6582"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="597.00598"
+         y="876.83252"
+         id="tspan6586"
+         style="font-size:12px">Mise en place de la dernière Hat</tspan><tspan
+         sodipodi:role="line"
+         x="597.00598"
+         y="891.83252"
+         style="font-size:12px"
+         id="tspan3574">et saut au boot loader d'almos</tspan></text>
+    <rect
+       rx="9.4910011"
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-6-7-9-3"
+       width="20"
+       height="60"
+       x="410"
+       y="289.50504"
+       ry="9.4910011"
+       clip-path="url(#clipPath3165-7-9)"
+       transform="matrix(-1,0,0,-1,670.2203,1262.8249)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 190.08005,938.78276 60,0"
+       id="path3062-5-3-6"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 249.95244,938.76636 22.14286,0.1786"
+       id="path3189-6-1"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="94.179138"
+       y="940.75635"
+       id="text6644"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6646"
+         x="94.179138"
+         y="940.75635"
+         style="font-size:12px">Retour au shell</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="328.3837"
+       y="917.81104"
+       id="text6690"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6692"
+         x="328.3837"
+         y="917.81104">set-reset </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="-146.47212"
+       y="481.62598"
+       id="text6696"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6698"
+         x="-146.47212"
+         y="481.62598" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotS)"
+       d="m 460.02912,878.99949 16.16244,0 1.01016,110.7039"
+       id="path6704"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 477.14286,988.89419 25,0"
+       id="path6706"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="507.85715"
+       y="990.17987"
+       id="text6708"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6710"
+         x="507.85715"
+         y="990.17987">Activation des Hats</tspan></text>
+    <rect
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-2"
+       width="20"
+       height="50.714287"
+       x="440"
+       y="278.41367"
+       ry="9.4910011"
+       rx="9.4910011" />
+    <rect
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-9"
+       width="20"
+       height="50.714287"
+       x="240"
+       y="349.50504"
+       ry="9.4910011"
+       rx="9.4910011" />
+    <rect
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-3"
+       width="20"
+       height="50.714287"
+       x="240"
+       y="410.50504"
+       ry="9.4910011"
+       rx="9.4910011" />
+    <rect
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-3-1"
+       width="20"
+       height="50.714287"
+       x="240"
+       y="468.50504"
+       ry="9.4910011"
+       rx="9.4910011" />
+    <rect
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-4"
+       width="20"
+       height="50.714287"
+       x="239.49492"
+       y="639.26471"
+       ry="9.4910011"
+       rx="9.4910011" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="104.64666"
+       y="660.62189"
+       id="text7365"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7367"
+         x="104.64666"
+         y="660.62189">Routage des interruptions</tspan><tspan
+         sodipodi:role="line"
+         x="104.64666"
+         y="675.62189"
+         id="tspan7408">via un mux</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:29.26882935px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="179.24379"
+       y="632.2962"
+       id="text3219-1-7"
+       sodipodi:linespacing="125%"
+       transform="scale(0.94138663,1.0622628)"><tspan
+         sodipodi:role="line"
+         id="tspan3221-2-8"
+         x="179.24379"
+         y="632.2962">{</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="185.15649"
+       y="659.23285"
+       id="text5798-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5800-5"
+         x="185.15649"
+         y="659.23285"
+         style="font-size:12px">- IOC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="185.15649"
+       y="673.23285"
+       id="text5802-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5804-3"
+         x="185.15649"
+         y="673.23285"
+         style="font-size:12px">- TTY</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7435"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Nimbus Roman No9 L;font-style:normal;font-weight:normal;font-size:12px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Nimbus Roman No9 L;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion7437"><rect
+           id="rect7439"
+           width="18.182745"
+           height="37.375645"
+           x="-321.22852"
+           y="232.11832" /></flowRegion><flowPara
+         id="flowPara7441" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="490.93414"
+       y="895.78851"
+       id="text7445"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7447"
+         x="490.93414"
+         y="895.78851" /><tspan
+         sodipodi:role="line"
+         id="tspan7449"
+         x="490.93414"
+         y="910.78851" /></text>
+    <rect
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-3-1-3"
+       width="20"
+       height="50.714287"
+       x="240.01276"
+       y="525.46429"
+       ry="9.4910011"
+       rx="9.4910011" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="135.86946"
+       y="530.88397"
+       id="text6007-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6009-7"
+         x="137.36946"
+         y="530.88397"
+         style="font-size:12px">Copie du code permettant </tspan><tspan
+         sodipodi:role="line"
+         x="135.86946"
+         y="545.88397"
+         id="tspan6013-3"
+         style="font-size:12px">l'activation des Hats</tspan><tspan
+         sodipodi:role="line"
+         x="135.86946"
+         y="560.88397"
+         style="font-size:12px"
+         id="tspan3448">rom -&gt; ram HC</tspan><tspan
+         sodipodi:role="line"
+         x="135.86946"
+         y="575.88397"
+         style="font-size:12px"
+         id="tspan3450">rom -&gt; ram RC</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3420"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Nimbus Roman No9 L;font-style:normal;font-weight:normal;font-size:9px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Nimbus Roman No9 L;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3422"><rect
+           id="rect3424"
+           width="100.0051"
+           height="9.5964489"
+           x="101.52033"
+           y="555.36713" /></flowRegion><flowPara
+         id="flowPara3426" /></flowRoot>    <rect
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-4-6"
+       width="20"
+       height="50.714287"
+       x="240.01276"
+       y="582.03284"
+       ry="9.4910011"
+       rx="9.4910011" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="143.24652"
+       y="596.92078"
+       id="text3452"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="143.24652"
+         y="596.92078"
+         id="tspan3456">Configuration et Activation (sauf P0</tspan><tspan
+         sodipodi:role="line"
+         x="144.74652"
+         y="611.92078"
+         id="tspan3156">du cluster de boot) des </tspan><tspan
+         sodipodi:role="line"
+         x="143.24652"
+         y="626.92078"
+         id="tspan3460">Hats dans les clusters de l'instance</tspan></text>
+    <rect
+       style="fill:#9fa09a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3003-4-2"
+       width="20"
+       height="50.714287"
+       x="239.50769"
+       y="696.68512"
+       ry="9.4910011"
+       rx="9.4910011" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="128.98985"
+       y="706.30127"
+       id="text3480"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3482"
+         x="128.98985"
+         y="706.30127">Envoi des IPI à tous les processeurs</tspan><tspan
+         sodipodi:role="line"
+         x="128.98985"
+         y="721.30127"
+         id="tspan3484">de l'instance en spécifiant l'adresse</tspan><tspan
+         sodipodi:role="line"
+         x="128.98985"
+         y="736.30127"
+         id="tspan3517">de configuration des Hats</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 450,802.36218 20,-20 0,-120 50,0"
+       id="path3515"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="309.55402"
+       y="800.59375"
+       id="text6686"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6688"
+         x="309.55402"
+         y="800.59375">Interrupt signal </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L"
+       x="607.03662"
+       y="823.05756"
+       id="text3540"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3542"
+         x="607.03662"
+         y="823.05756">Récupération de l'adresse du bootloader</tspan><tspan
+         sodipodi:role="line"
+         x="607.03662"
+         y="838.05756"
+         id="tspan3544">d'almos</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 440,867.36218 250,938.43361"
+       id="path3553"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

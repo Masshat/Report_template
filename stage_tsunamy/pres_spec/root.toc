@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.12pt}
+\beamer@sectionintoc {1}{Contexte et Sujet}{3}{0}{1}
+\beamer@sectionintoc {2}{D\'efinition des probl\`emes}{7}{0}{2}
+\beamer@sectionintoc {3}{Solution de principe}{8}{0}{3}
+\beamer@sectionintoc {4}{T\^aches \`a accomplir}{12}{0}{4}
+\beamer@sectionintoc {5}{Proc\'edure de recette}{13}{0}{5}
+\beamer@sectionintoc {6}{Ech\'eancier}{14}{0}{6}

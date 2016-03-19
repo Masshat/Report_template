@@ -1,0 +1,111 @@
+    % Pour rendre ça possible, TSUNAMY introduit un nouveau composant : la HAT pour Harware Address Translator.
+    % La HAT introduit un nouvel espace d'adressage, elle fournit des traduction d'adresse à granularité cluster,
+    % elle permettra donc d'isoler un OS dans dans un ensemble de cluster.
+%==============================================================================
+\section{Contexte et Sujet}
+%==============================================================================
+
+\begin{frame} \FT{Contexte du stage}
+    \BI
+    \o Projet ANR TSUNAMY - LIP6 (Alsoc)
+    \o Partenaires : Lab-STICC (Lorient), CEA LIST, Laboratoire Hubert Curien (St Etienne)
+    \o Thèmes du projet
+       \BI
+       \o Architecture manycore
+       \o Cloud computing
+       \o Problématiques de sécurité
+       \EI
+    \o Apports du LIP6
+       \BI
+       \o Architecture TSAR (CC-NUMA)
+       \o Système d'exploitation ALMOS
+       \EI
+    \EI
+    %% QM
+    % Architectures manycore -> cloud computing
+    % Plusieurs utilisateurs de la même "puce" en parallèle
+    % Ici, "utilisateur" = possède son propre SE
+    % Problème de l'isolation des données : en mémoire en parallèle
+    % Virtualisation des OS
+    % Nécessité d'un hyperviseur pour lancer et arrêter des SE
+    
+    % Projet basé sur l'architecture Tsar (cohérence matérielle)
+    % Modifications nécessaire dans ce projet pour garantir l'isolation
+    % entre les SE qui s'éxecutent de manière concurrente (ne peut pas être fait en logiciel)
+
+    % OS pour le projet = Almos, conçu spécialement pour les manycore, mais n'adresse les problématiques de sécurité (monolithique, pas de notion de d'utilisateur, pas de notion de droits, etc.)
+
+
+    % Mon stage s'inscrit dans le Projet ANR : TSUNAMY, dans l'équipe SoC du département Alsoc du lip6
+    % Ce projet adresse la problématique de la manipulation sécurisée des données au sein d'architecture manycore
+    % Ce type d'architecture sera à l'avenir massivement déployé dans des infrastructure comme le cloud computing
+    % Il met l'accent sur l'aspect sécuritaire de ce type d'architecture. c'est à dire la confidentialité 
+    % des données manipulées par les OS lancés sur la plateforme.
+    % Le but de ce stage est d effectivement lancé deux OS sur une plateforme manycore TSAR.
+    % L'OS utilisé dans ce stage est ALMOS, ce système d'exploitation cherche à résoudre les problèmes de localité
+    % des données dans une architecture CC-NUMA manycore.
+
+    % O : Quoi?
+    % O : Pourquoi (MOTIVATION)? Deployment des manycore dans le cloud computing
+    % O : Sécuritaire. Confidentialité des OS
+    
+    % Les différents partenaire du projet TSUNAMY sont (("")).
+    % le Lab-STICC s'occupe de la confidentialité des données à entre 2 processus à l'intérieur d'un OS.
+    % Le CEA LIST est responsable de la version finale de l'hyperviseur.
+    % Le LabHC fournit un composant permettant le chiffrement est déchiffrement des données des systèmes d'exploitation
+    % sur les disques.
+\end{frame} %-------------------------------------------------------------------
+
+\begin{frame}{Mise en perspective}
+        \begin{center}
+                \begin{block}{Buts de Tsunamy}
+                        \BI
+                                \o Exécuter plusieurs systèmes d'exploitation
+                                \o Isolation des systèmes d'exploitation
+                                \o Chiffrement du code des systèmes d'exploitation
+                                \o Chiffrement et déchiffrement à la volée des données écrites ou lues sur le disque 
+                        \EI
+                \end{block}
+
+                \begin{block}{Apports du stage}
+                        \BI
+                                \o Exécuter plusieurs systèmes d'exploitation (hyperviseur "simple")
+                        \EI
+                \end{block}
+
+
+        \end{center}
+\end{frame}
+
+\begin{frame} \FT{Sujet : Démarrer 2 ALMOS sur une plateforme à 4 clusters}
+        \begin{center}
+                \includegraphics[width=8cm]{platform_complete.pdf}
+        \end{center}
+        % //PLATEFORME
+        % Plus précisement, le sujet de ce stage est d'exécuter 2 almos sur la plateforme.
+        % ICI est représenté la plateforme qui m'a été fournie.
+        % //HYPERVISEUR
+        % Il est question du développement de la première version d'un hyperviseur.
+        % L'hyperviseur à un cluster réservé : le cluster 0.
+        % //ALLOCATION CLUSTER
+        % Les ALMOS se verront attribués des clusters, granularité minimum.
+        % il restera donc 3 clusters pour 2 instances d'almos, 2 clusters et 1 cluster.
+        % // HAT
+        % C'est celui ci qui sera vu par le système d'exploitation. Le composant chargé de la traduction
+        % d'adresse physique en adresse machine s'appelle HAT pour Harware Adresse Translator
+        % Les HATS devront être dynamiquement configurées par l'hyperviseur lors du lancement d'une machine virtuelle
+
+\end{frame} %-------------------------------------------------------------------
+
+\begin{frame}{Contexte}
+        \begin{center}
+                \begin{block}{Terminologie}
+                \BI
+                \o Système d'exploitation (OS) : ALMOS (utilisé dans le cadre de se stage).
+                \o Instance d'un OS : Spécialisation d'un OS, qui comporte un système de fichiers, un code kernel binaire et un bootloader.
+                \o Machine virtuelle (VM) : Sous-ensemble de clusters associé à une instance d'OS.
+                \EI
+        \end{block}
+        \end{center}
+\end{frame}
+

@@ -1,0 +1,122 @@
+\documentclass[blue]{beamer}
+
+%----------------------------------------------- Packages standards nécessaires
+%\usepackage[utf8]{inputenc}
+\usepackage[latin1]{inputenc}   %  pour les accents français
+%\usepackage[T1]{fontenc}
+\usepackage{pgf,pgfpages}
+%\usepackage[pdftex]{color}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{fancybox}
+
+%----------------------------------------------------Package Beamer Parametrage
+\usetheme{Warsaw}
+%\usepackage{beamerthemetree}  % le theme d'affichage
+%\beamertemplatetransparentcovereddynamic % pour des listes grisée progressives
+\useoutertheme{infolines}
+\usenavigationsymbolstemplate{} % pour ne pas avoir les symboles de navigation
+%\setbeameroption{show notes}
+%\setbeameroption{show notes on second screen=left} % lorsqu'on gère 2 écrans
+
+%--------------------------------------------------- Quelques raccourcis utiles
+\def\FT{\frametitle}
+\def\BM{\begin{multicols}}  \def\EM{\end{multicols}}
+\def\BI{\begin{itemize}}    \def\EI{\end{itemize}}
+\def\BE{\begin{enumerate}}  \def\EE{\end{enumerate}}
+\def\BD{\begin{description}}\def\ED{\end{description}}
+\def\BQ{\begin{quote}}      \def\EQ{\end{quote}}
+\def\BC{\begin{center}}     \def\EC{\end{center}}
+\def\o{\item}
+\def\FIGW#1#2{\includegraphics[width=#1\textwidth]{epspdf/#2}}
+\def\FIGH#1#2{\includegraphics[height=#1\textheight]{epspdf/#2}}
+
+
+\title[Stage M2 -- Projet TSUNAMY]{Exécution de plusieurs systèmes d'exploitation sur une puce manycore CC-Numa sécurisée}
+\author{Jean-Baptiste BRÉJON}
+\institute[Master SESI]{Encadrant : Quentin MEUNIER\\Lip6 - SoC - ALSOC}
+\date{10 Septembre 2015}
+
+\begin{document}
+\input{titre.tex}
+\frame{\tableofcontents}
+
+% -----------------------------------------------------------------------------
+%
+% STAGES « RECHERCHE » CONCERNANT LES ELEVES DU MASTER UPMC, spécialité ACSI, M2
+% Le stage « RECHERCHE » se déroule en deux phases :
+%
+% 1. Phase de Spécification
+%   
+%    Prise en main du problème, compréhension du sujet, analyse de
+%    différentes solutions possibles, choix des outils, identification des
+%    tâches à accomplir, organisation du travail, et définition détaillée
+%    des objectifs à atteindre et de la procédure de recette.
+%
+%    Le présent document a pour objectif de présenter le produit de cette phase
+%    de spécification en 15 transparents max pour un exposé de 30mn
+%
+%    La soutenance de spécification et le rapport associé jouent le rôle d'un 
+%    cahier des charges :
+%    toute modification des objectifs ou de la procédure de recette doit
+%    être négociée avec le responsable du sujet et approuvée par le
+%    responsable du stage. Les modifications de dernière minute sont
+%    irrecevables.
+%
+% 2. Phase de Réalisation
+%
+%    Mise en oeuvre de la solution retenue. Mise au point et déboguage.
+%    Validation, expérimentation et analyse des résultats.
+%
+%    L'évaluation en septembre : rapport final + soutenance finale
+% 
+%    La soutenance finale et le rapport associé reprennent le contenu de la
+%    spécification, et la complète en ajoutant :
+%    1.      l'analyse des différences entre la réalisation et la spécification,
+%    2.      les résultats détaillés des expérimentations et des tests de
+%            validation.
+%
+%    Durée de la soutenance : 30'. L'encadrant doit être présent à la soutenance.
+% 
+%    Le rapport et la soutenance finale contribuent pour 70% à la note de l'UE.
+
+\input{contexte_sujet.tex}
+\input{definition_analyse_probleme.tex}
+\input{principe_solution.tex}
+%\input{identification_taches.tex}
+\input{procedure_recette.tex}
+\input{realisation.tex}
+\input{boot_vm.tex}
+\input{validation.tex}
+\input{perspective.tex}
+
+\appendix
+\newcounter{finalframe}
+\setcounter{finalframe}{\value{framenumber}}
+\begin{frame}{}
+\end{frame}
+\begin{frame} \FT{Solution pour affichage des machines virtuelles - Lecture}
+        \begin{center}
+                \includegraphics[width=10cm]{ttys_adv_r.pdf}
+        \end{center}
+        % Pour résoudre le problème de l'affichage des instances d'ALMOS il est nécessaire de créer un nouveau composant
+        % à partir du composant MULTI\_TTY.
+        % Le problème à résoudre était de limiter le nombre de terminaux crées par la simulation.
+        % Ce composant permet d'afficher sur un terminal, via une commande sur le terminal hyperviseur,
+        % l'une ou l'autre des instances d'ALMOS.
+        % Il y a donc un terminal pour l'hyperviseur et 4 terminaux pour toutes les instances d'ALMOS.
+        % Cette commande doit intéragir non seulement avec le MULTI_TTY_VT mais aussi avec le composant IOPIC.
+        % En effet lorsque l'on bascule l'affichage d'une fenêtre, on souhaite aussi que les interruptions soit
+        % redirigés vers l'instance que l'on est en train d'afficher.
+        % Il faut donc reconfiguré l'IOPIC pour qu'il envoie l'interruption à la bonne instance.
+\end{frame}
+
+\begin{frame} \FT{Solution pour affichage des machines virtuelles - Écriture}
+        \begin{center}
+                \includegraphics[width=10cm]{ttys_adv_w.pdf}
+        \end{center}
+\end{frame}
+\setcounter{framenumber}{\value{finalframe}}
+
+\end{document}

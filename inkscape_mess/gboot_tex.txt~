@@ -1,0 +1,71 @@
+\documentclass[8pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage[french]{babel}
+\usepackage[top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{caption}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{listings}
+\raggedbottom
+
+
+\newcommand{\code}[1] {\small\texttt{#1}\normalsize}
+\newcommand{\lbar}[1] {$\overline{#1}$}
+\newcommand{\ble}[0] {$\bullet$ \space}
+
+\geometry{hmargin=2.5cm, vmargin=1cm}
+
+\begin{document}
+
+\section*{Boot}
+\subsection*{Init}
+Lors de l'initialisation tous les processeurs exécute le même code : celui de l'hyperviseur. Tous les processeurs à l'exception de P0 C00 se mettent en attente d'une IPI (instruction wait). Le processeur P0 C00 exécute le shell hyperviseur.
+
+Le processeur P0 C00 attend les commandes rentrées par l'utilisateur.
+
+\subsection*{Allocation}
+Lorsque l'utilisateur demande le lancement d'une instance d'almos (ex : run -nc 2 -i 6 (nc : nombre de clusters, i : numéro de l'instance)), l'hyperviseur doit :
+\begin{itemize}
+        \item allouer le nombre de clusters demandé (si disponible)
+        \item sélectionner le canal de l'IOC correspondant à l'instance demandée (ici, il s'agit du canal numéro 6)
+        \item allouer un sous canal par canaux du TTY (tous ayant le même index de sous canal)
+        \item allouer un canal pour le Frame buffer (même index que celui du TTY)
+\end{itemize}
+
+\subsection*{Arch-info}
+
+L'hyperviseur construit le arch-info à partir des informations acquise pendant la phase d'allocation.
+
+\subsection*{Copie de l'instance d'almos}
+
+Avant d'effectuer la copie, l'hyperviseur doit router l'interruption du canal de l'IOC permettant l'accès à l'instance. 
+Il copie ensuite le Arch-info, le kernel et le bootloader aux adresses définies par l'instance. 
+
+\subsection*{Calcul des traduction des Hats et configuration}
+
+L'hyperviseur réveil ensuite P0 $C0_i$ (proc 0 du cluster 0 de l'instance), en lui spécifiant l'adresse de la fonction effectuant les calculs de traduction des Hats (le code de cette fonction se trouve dans le cluster hyperviseur).
+
+L'hyperviseur (s'exécutant sur P0 $C0_i$), configure toutes les Hats, puis les active (sauf pour lui même, car il n'aurait plus accès au code se trouvant sur le cluster hyperviseur).
+
+\subsection*{Mise en place de la Hat de P0 $C0_i$}
+
+Lorsque l'hyperviseur (s'exécutant sur P0 $C0_i$) activera sa Hat, il passera de l'espace d'adressage machine, à l'espace d'adressage physique. Le processeur P0 $C0_i$ n'aura donc plus accès au code présent sur le cluster hyperviseur. Pour pouvoir continué à exécuté le code d'activation de la Hat après son activation, il est nécéssaire ce code dans un des cluster de l'instance. L'adresse à laquelle ce code doit être copier doit correspondre à l'adresse machine qui sera générée par la Hat lorsque P0 $C0_i$ demandera l'adresse physique (anciennement adresse machine du code dans le cluster hyperviseur). 
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

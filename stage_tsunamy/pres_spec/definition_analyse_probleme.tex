@@ -1,0 +1,59 @@
+                % (( Or on souhaiterait que chaque instance, une fois lancée, aient son propre canal. De cette façon elles     ))
+                % (( ne se gêneront pas, et cela rendra transparent le fait que plusieurs instances d'ALMOS utilisent le même  ))
+                % (( périphérique en même temps.                                                                               ))
+%==============================================================================
+\section{Définition des problèmes}
+%==============================================================================
+
+\begin{frame} \FT{Définition et analyse du problème}
+        \BI
+        \o Canaux des périphériques non répliqués
+        % Les périphériques non répliqués sont des périphériques qui sont uniquement présent dans le cluster 0
+        % de la plateforme, contrairement, par exemple, au DMA (présent dans tous les clusters
+        % le premier des périphériques à traiter est le contrôleur de disque
+        \BI
+                \o IOC : contrôleur de disque
+                \BI
+                        \o Un seul canal
+                % Le composant IOC fourni avec la plateforme n'a qu'un seul canal (c'est a dire un seul ensemble de registres 
+                % dans lequel ira écrire ALMOS lorsqu'il aura besoin d'effectuer un transfert). Cela signifie que l'accès à ce 
+                % périphérique pour une instance d'ALMOS dépendra de l'autre instance d'ALMOS.
+                        \o Un seul disque
+                % En plus de ca le code des différentes instances d'ALMOS se trouvent sur des disques séparés, 
+                % Or ce périphérique ne supporte qu'un seul. Ces deux problèmes rendent ce périphérique 
+                % impossible à utilisé dans l'état.
+                \EI
+                % 
+
+                \o MULTI\_TTY : contrôleur de terminaux
+                \note[item]{L'autre composant non répliqués est le composant MULTI\_TTY.}
+                % Ce composant est déjà multi-canaux, il ne pose donc pas de problème spécifique à ce niveau la
+        \EI
+        \o Routage des interruptions des périphériques non répliqués
+        \BI \o Pas d'accès à l'intérieur de l'instance pour l'hyperviseur \EI
+        % Dans la plateforme fournie, les interruptions de l'IOC et du TTY sont directement dirigées
+        % vers le concentrateur d'interruption du cluster 0 (cluster de l'hyperviseur)
+        % À terme, dans le projet TSUNAMY, l'hyperviseur ne devra pas pouvoir envoyer d'IPI à l'interieur d'une instance 
+        % en marche.
+        % On souhaiterait donc qu'elles soient signalées à l'instance sans passé par l'hyperviseur
+        \o Démarrage des machines virtuelles
+        \BI \o Isoler puis réveiller ?
+        % En ce qui concerne Le démarrage d'une machine virtuelles.
+        % Le problème se situe entre le moment où l'on cherche à activer les HATs des clusters de la future 
+        % VM (cad les isoler) et le moment où l'on veut réveiller les processeurs.
+        % Le réveil des processeurs s'effectue grâce à un envoi d'IPI or une fois les machines isoler 
+        % l'hyperviseur ne doit plus pouvoir envoyer une IPI à l'interieur de la VM et ne peut donc pas réveiller
+        % les processeurs.
+        \o Réveiller puis isoler ?
+        \EI
+        % Les réveiller avant d'isoler les clusters n'est pas non plus une solution car cela signifierait que ALMOS démarrerait
+        % sans que les cluters de la VM soit isolé.
+        \o Affichage des machines virtuelles sur les terminaux
+        \BI \o Un canal = une fenêtre \EI
+        % Un problème subsiste dans le composant MULTI\_TTY malgré le fait qu'il soit multicanal.
+        % Pour ce composant, un canal signifie une fenêtre, Or on à besoin d'autant de canal que de VM possible sur la 
+        % plateforme (exemple sur une plateforme 4 clusters : 3 VM possible, 4 terminal par VM + le terminal hyperviseur)
+        % ce qui fait 12 fenêtres, pas extrêmement gênant, mais cela peut s'avérer un problème lorsque l'on cherchera à 
+        % simuler des plateforme plus grosse, ou il y a donc plus de VM possible.
+        \EI
+\end{frame} %-------------------------------------------------------------------

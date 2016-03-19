@@ -1,0 +1,204 @@
+\documentclass[12pt,francais]{beamer} 
+
+\usepackage{multicol} %columnes
+\usepackage{colortbl}
+\usepackage{graphicx}
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+%\usepackage{amssymb}
+\usepackage{multimedia}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[francais]{babel}
+\usepackage{bookman}
+\usepackage{listings}
+\usepackage{multicol}
+
+\newcommand{\ble}[0] {$\bullet$ \space}
+\setbeamertemplate{itemize item}[ball]
+%\setbeamercolor{separation line}{use=structure,bg=structure.fg!10!bg} % ligne de séparation
+
+%\useoutertheme[footline=institutetitle]{miniframes} % ligne de sous section + ligne du bas
+
+
+\useinnertheme{rounded} % blocks arondis
+\usecolortheme{rose} %permet les cadre autour des blocks
+\setbeamertemplate{blocks}[rounded][shadow=true] % ombre block
+\useoutertheme{smoothbars}
+\useoutertheme{miniframes} % ligne de sous section
+\setbeamertemplate{frametitle}[default][center] % centrer le titre
+\DeclareOptionBeamer{subsection}[false]{\csname beamer@theme@subsection#1\endcsname}
+\setbeamercolor{section in head/foot}{use=structure,bg=structure.fg!25!bg} % permet dégradé
+\AtBeginDocument{%permet le dégradé en haut 
+        {%
+                \usebeamercolor{section in head/foot}
+        }
+        \pgfdeclareverticalshading{beamer@headfade}{\paperwidth}
+        {%
+                color(0cm)=(bg);
+                color(1.25cm)=(section in head/foot.bg)%
+        }
+        \setbeamercolor{section in head/foot}{bg=}
+}
+\addtoheadtemplate{\pgfuseshading{beamer@headfade}\vskip-1.25cm}{} % dégradé
+\beamertemplatedotitem
+\DeclareOptionBeamer{compress}{\beamer@compresstrue} % ??
+\ProcessOptionsBeamer % ??
+\setbeamertemplate{navigation symbols}{} % suppression des symbols de nav
+% ajout de la barre du bas
+\setbeamertemplate{footline}{%
+        \leavevmode%
+        \hbox{\hspace*{-0.06cm}
+        \begin{beamercolorbox}[wd=0.30\paperwidth,ht=2.25ex,dp=1ex,left]{author in head/foot}%
+                \usebeamerfont{author in head/foot}
+        \end{beamercolorbox}%
+        \begin{beamercolorbox}[wd=0.48\paperwidth,ht=2.25ex,dp=1ex,center]{section in head/foot}%
+                \usebeamerfont{section in head/foot} LIP6 - SoC - Alsoc
+        \end{beamercolorbox}%
+        \begin{beamercolorbox}[wd=0.20\paperwidth,ht=2.25ex,dp=1ex,right]{section in head/foot}%
+                \usebeamerfont{section in head/foot}
+                \insertframenumber{} / \inserttotalframenumber
+        \end{beamercolorbox}}%
+        \vskip0pt%
+}
+
+%theme "ADELE"
+\definecolor{ADEL_BLEU_FONCE}{RGB}{72,148,163} 
+\definecolor{ADEL_GRIS}{RGB}{171,185,187} 
+\definecolor{ADEL_BLACK}{RGB}{0,0,0} 
+\definecolor{ADEL_BLEU_CLAIRE}{RGB}{193,218,227} 
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\colorlet{beamer@blendedblue}{ADEL_BLACK!60!black}
+
+%\beamerdefaultoverlayspecification{<+->}
+
+
+
+\lstset{backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+basicstyle=\tiny,     % the size of the fonts that are used for the code
+breakatwhitespace=false,      % sets if automatic breaks should only happen at whitespace
+breaklines=true,              % sets automatic line breaking
+captionpos=b,                 % sets the caption-position to bottom
+commentstyle=\color{mygreen}, % comment style
+escapeinside={\%*}{*)},       % if you want to add LaTeX within your code
+frame=single,                 % adds a frame around the code
+keepspaces=true,              % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+keywordstyle=\color{blue},    % keyword style
+language={C},
+numbers=left,                 % where to put the line-numbers; possible values are (none, left, right)
+numbersep=5pt,                % how far the line-numbers are from the code
+numberstyle=\tiny\color{mymauve}, % the style that is used for the line-numbers
+rulecolor=\color{black},      % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+showspaces=false,             % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+showstringspaces=false,       % underline spaces within strings only
+showtabs=false,               % show tabs within strings adding particular underscores
+stepnumber=1,                 % the step between two line-numbers. If it's 1, each line will be numbered
+stringstyle=\color{mymauve},  % string literal style
+tabsize=3                    % sets default tabsize to 2 spaces
+}
+
+
+%%%%%%%%%%% Sommaire beamer %%%%%%%%%%%
+%\AtBeginSection[]{
+%  \begin{frame}{Plan}
+%    \small \tableofcontents[currentsection, hideothersubsections]
+%   \end{frame} 
+%}
+%\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/crayons.png}}
+
+
+\title{Stage M2-SESI \\ \textbf{Exécution de plusieurs systèmes d'exploitation sur une puce manycore CC-Numa sécurisée}\\HyperviseurV0}
+\author{Jean-Baptiste Bréjon\\
+Encadrant : Quentin Meunier}
+\date{}
+
+\begin{document}
+
+
+\maketitle
+%\section*{Sommaire}
+%\begin{frame}
+%        \begin{center}
+%                \tableofcontents
+%        \end{center}
+%\end{frame}
+
+\section*{Contexte}
+\begin{frame}{Contexte}
+        \begin{center}
+                \begin{block}{Tsunamy}
+                        \begin{itemize}
+                                \item Pose le problème de la manipulation de données de façon sécurisée au sein d'une architecture manycore.
+                                \item Adresse, entre autres, le problème de l'exécution cloisonnée de plusieurs OS sur une même puce.
+                        \end{itemize}
+                \end{block}
+                \begin{block}{Environnement}
+                        \begin{itemize}
+                                \item Architecture TSAR 4 clusters 
+                                \item Système d'exploitation Almos
+                        \end{itemize}
+                \end{block}
+        \end{center}
+\end{frame}
+
+% Une fois que l'hyperviseur à lancer l'instance, il ne doit plus avoir accès à l'intérieur de celle ci
+% le lancement dynamique des instances s'effectueront via une commande sur le terminal hyperviseur 
+% Le cloisonnement des OS est assuré matériellement par des HAT (hardware translation table)
+\begin{frame}{Hyperviseur-v0}
+        \begin{center}
+                \begin{itemize}
+                        \item Aveugle
+                        \item Lancement dynamique des OS
+                        \item Cloisonnement matériel
+                \end{itemize}
+        \end{center}
+\end{frame}
+
+% Les Hats induisent un nouvel espace d'adressage entres les 2 déjà existant
+% comme le fait la MMU, elle traduit des adresses en d'autres adresses, mais à la granularité cluster
+% Elles sont placées devant tous les initiateurs d'un cluster
+% Lors du lancement d'une instance l'hyperviseur va configurer les Hats de façon à ce que les adresses émises par les initiateurs
+%% tombent dans les clusters de l'instance
+% Elles fonctionnent comme un fusible : une fois activées elles ne devront plus pouvoir être modifiées sans "tuer" l'instance
+\section*{HAT}
+\begin{frame}{HAT}
+        \begin{center}
+                \includegraphics[width=10cm]{thirdlayer.pdf}
+        \end{center}
+\end{frame}
+
+
+% Une plateforme 2 cluster
+% Cluster 0 est le cluster hyperviseur, seul l'hyperviseur s'exécute sur ce cluster 
+% fait apparaitre XICU, et les périphériques non répliqués 
+% elle est suceptible d'évoluer en fonction des problèmes rencontrés
+% Ajout d'un TTY, le tty hyperviseur
+% potentiellement plusieurs disque, un disque par instance
+\section*{Plateforme}
+\begin{frame}{Plateforme}
+        \begin{center}
+                \includegraphics[width=10cm]{platform_simple.pdf}
+        \end{center}
+\end{frame}
+
+
+\section*{Principaux problèmes}
+\begin{frame}{Principaux Problèmes}
+                \begin{center}
+                        \begin{itemize}
+                                \item Interruptions des périphériques non répliqués
+                                \item Affichage des instances
+                                \item Lancement des instances
+                        \end{itemize}
+                \end{center}
+\end{frame}
+
+
+\end{document}
+
+
+

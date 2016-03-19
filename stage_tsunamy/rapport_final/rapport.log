@@ -1,0 +1,712 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.3.19)  19 MAR 2016 12:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**rapport.tex
+(./rapport.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 79 languages loaded.
+(/usr/share/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-dist/tex/latex/lettrine/lettrine.sty
+File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\c@DefaultLines=\count88
+\c@DefaultDepth=\count89
+\DefaultFindent=\dimen103
+\DefaultNindent=\dimen104
+\DefaultSlope=\dimen105
+\DiscardVskip=\dimen106
+\L@lbox=\box26
+\L@tbox=\box27
+\c@L@lines=\count90
+\c@L@depth=\count91
+\L@Pindent=\dimen107
+\L@Findent=\dimen108
+\L@Nindent=\dimen109
+\L@lraise=\dimen110
+\L@first=\dimen111
+\L@next=\dimen112
+\L@slope=\dimen113
+\L@height=\dimen114
+\L@novskip=\dimen115
+\LettrineWidth=\dimen116
+\LettrineHeight=\dimen117
+\LettrineDepth=\dimen118
+
+Loading lettrine.cfg
+(/usr/share/texmf-dist/tex/latex/lettrine/lettrine.cfg))
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/share/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texmf-dist/tex/latex/psnfss/palatino.sty
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks17
+\float@box=\box28
+\@float@everytoks=\toks18
+\@floatcapt=\box29
+)
+(/usr/share/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip52
+\subfigcapskip=\skip53
+\subfigcaptopadj=\dimen119
+\subfigbottomskip=\skip54
+\subfigcapmargin=\dimen120
+\subfiglabelskip=\skip55
+\c@subfigure=\count93
+\c@lofdepth=\count94
+\c@subtable=\count95
+\c@lotdepth=\count96
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip56
+\subfig@bottom=\skip57
+)
+(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen121
+\WF@size=\dimen122
+\c@WF@wrappedlines=\count97
+\WF@box=\box30
+\WF@everypar=\toks19
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count98
+))
+\Gin@req@height=\dimen123
+\Gin@req@width=\dimen124
+)
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2015/08/03 3.9m The Babel package
+
+(/usr/share/texmf-dist/tex/generic/babel-french/frenchb.ldf
+Language: frenchb 2015/10/04 v3.1i French support from the babel system
+
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2015/08/03 3.9m Babel common definitions
+\babel@savecnt=\count99
+\U@D=\dimen125
+)
+\l@acadian = a dialect from \language\l@french 
+\l@canadien = a dialect from \language\l@french 
+\FBcolonskip=\skip58
+\FBthinskip=\skip59
+\FB@interchartokenstateORI=\count100
+Package babel Info: Making : an active character on input line 356.
+Package babel Info: Making ; an active character on input line 357.
+Package babel Info: Making ! an active character on input line 358.
+Package babel Info: Making ? an active character on input line 359.
+\FBguillskip=\skip60
+\FBguill@level=\count101
+\FB@Mht=\dimen126
+\std@mcc=\count102
+\dec@mcc=\count103
+\listindentFB=\skip61
+\labelwidthFB=\skip62
+\leftmarginFB=\skip63
+\parindentFFN=\dimen127
+))
+(/usr/share/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip64
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen128
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen129
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count104
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count105
+\leftroot@=\count106
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count107
+\DOTSCASE@=\count108
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen130
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count109
+\c@MaxMatrixCols=\count110
+\dotsspace@=\muskip10
+\c@parentequation=\count111
+\dspbrk@lvl=\count112
+\tag@help=\toks21
+\row@=\count113
+\column@=\count114
+\maxfields@=\count115
+\andhelp@=\toks22
+\eqnshift@=\dimen131
+\alignsep@=\dimen132
+\tagshift@=\dimen133
+\tagwidth@=\dimen134
+\totwidth@=\dimen135
+\lineht@=\dimen136
+\@envbody=\toks23
+\multlinegap=\skip65
+\multlinetaggap=\skip66
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2015/09/09 v4.18 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+)
+\XKV@depth=\count116
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2015/09/09 v2.0 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count117
+)
+\@glsmfirst=\toks27
+\@glsmrest=\toks28
+)
+(/usr/share/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/share/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2015/07/11 v2.23 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count118
+)
+(/usr/share/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2015/07/11 v2.23 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/share/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count119
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count120
+\FP@xia=\count121
+\FP@xib=\count122
+\FP@xfa=\count123
+\FP@xfb=\count124
+\FP@rega=\count125
+\FP@regb=\count126
+\FP@regs=\count127
+\FP@times=\count128
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count129
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/share/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks29
+\@dtl@tmpcount=\count130
+\dtl@tmplength=\skip67
+\dtl@sortresult=\count131
+\@dtl@numgrpsepcount=\count132
+\@dtl@datatype=\count133
+\dtl@codeA=\count134
+\dtl@codeB=\count135
+\@dtl@foreach@level=\count136
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
+Package: glossaries-compatible-307 2015/09/09 v4.18 (NLCT)
+) (/usr/share/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2015/03/23 v1.2 (NLCT) Track Languages
+
+(/usr/share/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/share/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/share/texmf-dist/tex/latex/beamer/translator/translator-language-mappings
+.tex)) (/usr/share/texmf-dist/tex/latex/glossaries-french/glossaries-french.ldf
+File: glossaries-french.ldf 2014/11/23 v1.0
+)
+\gls@level=\count137
+\@gls@tmpb=\toks30
+\gls@tmplen=\skip68
+\glskeylisttok=\toks31
+\glslabeltok=\toks32
+\glsshorttok=\toks33
+\glslongtok=\toks34
+ (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+Package: glossary-hypernav 2015/09/09 v4.18 (NLCT)
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2015/09/09 v4.18 (NLCT)
+\glslistdottedwidth=\skip69
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2015/09/09 v4.18 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip70
+\LTright=\skip71
+\LTpre=\skip72
+\LTpost=\skip73
+\LTchunksize=\count138
+\LTcapwidth=\dimen137
+\LT@head=\box33
+\LT@firsthead=\box34
+\LT@foot=\box35
+\LT@lastfoot=\box36
+\LT@cols=\count139
+\LT@rows=\count140
+\c@LT@tables=\count141
+\c@LT@chunks=\count142
+\LT@p@ftn=\toks35
+)
+\glsdescwidth=\skip74
+\glspagelistwidth=\skip75
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2015/09/09 v4.18 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count143
+\ST@wd=\dimen138
+\ST@rightskip=\skip76
+\ST@leftskip=\skip77
+\ST@parfillskip=\skip78
+\ST@pageleft=\dimen139
+\ST@headht=\dimen140
+\ST@tailht=\dimen141
+\ST@pagesofar=\dimen142
+\ST@pboxht=\dimen143
+\ST@lineht=\dimen144
+\ST@stretchht=\dimen145
+\ST@prevht=\dimen146
+\ST@toadd=\dimen147
+\ST@dimen=\dimen148
+\ST@pbox=\box37
+))
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2015/09/09 v4.18 (NLCT)
+\glstreeindent=\skip79
+))
+(./rapport.aux)
+\openout1 = `rapport.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 40.
+ (/usr/share/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count144
+\scratchdimen=\dimen149
+\scratchbox=\box38
+\nofMPsegments=\count145
+\nofMParguments=\count146
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count147
+\MPscratchDim=\dimen150
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
+\everyMPtoPDFconversion=\toks37
+) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Info: Redefining \degres on input line 40.
+LaTeX Info: Redefining \dots on input line 40.
+LaTeX Info: Redefining \up on input line 40.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 42.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 51.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./rapport.toc
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
+ [1
+
+])
+\tf@toc=\write3
+\openout3 = `rapport.toc'.
+
+ [2] (./rapport.lof
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 12.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+))
+\tf@lof=\write4
+\openout4 = `rapport.lof'.
+
+ [3
+
+]
+Chapitre 1.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 96.
+[1
+
+]
+Underfull \hbox (badness 1297) in paragraph at lines 156--157
+[]\T1/ppl/m/n/12 Il existe trois ap-proches pour l'ac-cès au ma-té-riel : la fu
+ll-virtualisation, la para-
+ []
+
+[2]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 158.
+ [3] [4] <platform_complete.pdf, id=34, 350.24702pt x 316.0526pt>
+File: platform_complete.pdf Graphic file (type pdf)
+
+<use platform_complete.pdf>
+Package pdftex.def Info: platform_complete.pdf used on input line 205.
+(pdftex.def)             Requested size: 483.69684pt x 436.5051pt.
+ [5 <./platform_complete.pdf>]
+<thirdlayer.pdf, id=46, 422.32895pt x 262.76292pt>
+File: thirdlayer.pdf Graphic file (type pdf)
+ <use thirdlayer.pdf>
+Package pdftex.def Info: thirdlayer.pdf used on input line 244.
+(pdftex.def)             Requested size: 483.69684pt x 300.95213pt.
+
+[6] [7 <./thirdlayer.pdf>] [8]
+Chapitre 2.
+[9
+
+] [10]
+Chapitre 3.
+[11
+
+] [12]
+Chapitre 4.
+[13
+
+] [14]
+Chapitre 5.
+[15
+
+] [16]
+Chapitre 6.
+[17
+
+] <address_space_tty.pdf, id=107, 334.2873pt x 125.04611pt>
+File: address_space_tty.pdf Graphic file (type pdf)
+
+<use address_space_tty.pdf>
+Package pdftex.def Info: address_space_tty.pdf used on input line 532.
+(pdftex.def)             Requested size: 483.69684pt x 180.93631pt.
+ <term_unix.pdf, id=108, 706.28387pt x 370.01031pt>
+File: term_unix.pdf Graphic file (type pdf)
+
+<use term_unix.pdf>
+Package pdftex.def Info: term_unix.pdf used on input line 544.
+(pdftex.def)             Requested size: 483.69684pt x 253.39906pt.
+ [18 <./address_space_tty.pdf>]
+<switch_display.pdf, id=124, 397.88649pt x 139.84822pt>
+File: switch_display.pdf Graphic file (type pdf)
+
+<use switch_display.pdf>
+Package pdftex.def Info: switch_display.pdf used on input line 574.
+(pdftex.def)             Requested size: 483.69684pt x 170.0128pt.
+ [19 <./term_unix.pdf>]
+Underfull \hbox (badness 7613) in paragraph at lines 592--593
+[]\T1/ppl/m/n/10.95 W BLK_DEV_BUFFER_REG $\OMS/cmsy/m/n/10.95 !$ \T1/ppl/m/n/10
+.95 adresse source/destination (dé-pend de l'opé-ra-tion
+ []
+
+[20 <./switch_display.pdf>]
+<multi_hatioc.pdf, id=155, 381.01823pt x 282.91496pt>
+File: multi_hatioc.pdf Graphic file (type pdf)
+ <use multi_hatioc.pdf>
+Package pdftex.def Info: multi_hatioc.pdf used on input line 611.
+(pdftex.def)             Requested size: 383.19748pt x 284.52756pt.
+
+[21 <./multi_hatioc.pdf>]
+<rha_placement.pdf, id=180, 289.38112pt x 121.07735pt>
+File: rha_placement.pdf Graphic file (type pdf)
+ <use rha_placement.pdf>
+Package pdftex.def Info: rha_placement.pdf used on input line 645.
+(pdftex.def)             Requested size: 483.69684pt x 202.38133pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22] [23 <./rha_placement.pdf>] <cc.pdf, id=199, 327.44835pt x 164.7355pt>
+File: cc.pdf Graphic file (type pdf)
+
+<use cc.pdf>
+Package pdftex.def Info: cc.pdf used on input line 691.
+(pdftex.def)             Requested size: 341.43306pt x 171.77583pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24] [25 <./cc.pdf>]
+Chapitre 7.
+[26
+
+] <etat_initial.pdf, id=215, 239.00291pt x 185.51207pt>
+File: etat_initial.pdf Graphic file (type pdf)
+
+<use etat_initial.pdf>
+Package pdftex.def Info: etat_initial.pdf used on input line 783.
+(pdftex.def)             Requested size: 483.69684pt x 375.44475pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<almos1.pdf, id=216, 239.00291pt x 197.17764pt>
+File: almos1.pdf Graphic file (type pdf)
+ <use almos1.pdf>
+Package pdftex.def Info: almos1.pdf used on input line 795.
+(pdftex.def)             Requested size: 483.69684pt x 399.05386pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 5077) in paragraph at lines 804--805
+[]\T1/ppl/m/n/12 On voit sur ce ter-mi-nal la phrase sui-vante : "\T1/pcr/m/n/1
+0.95 Initialization of 1 Online
+ []
+
+[27] [28 <./etat_initial.pdf>] <almos2.pdf, id=228, 239.00291pt x 227.62239pt>
+File: almos2.pdf Graphic file (type pdf)
+
+<use almos2.pdf>
+Package pdftex.def Info: almos2.pdf used on input line 825.
+(pdftex.def)             Requested size: 483.69684pt x 460.66884pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29 <./almos1.pdf>] <switch.pdf, id=236, 239.57204pt x 232.17441pt>
+File: switch.pdf Graphic file (type pdf)
+
+<use switch.pdf>
+Package pdftex.def Info: switch.pdf used on input line 851.
+(pdftex.def)             Requested size: 483.69684pt x 468.77602pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[30] [31 <./almos2.pdf>] [32 <./switch.pdf>]
+Chapitre 8.
+(./rapport.bbl [33
+
+]) [34
+
+] (./rapport.aux) ) 
+Here is how much of TeX's memory you used:
+ 8592 strings out of 493054
+ 123361 string characters out of 6140586
+ 257064 words of memory out of 5000000
+ 11871 multiletter control sequences out of 15000+600000
+ 44623 words of font info for 71 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 46i,7n,43p,1893b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/shar
+e/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/t
+ype1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/up
+lr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
+/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texmf-dist/fonts/t
+ype1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.p
+fb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on rapport.pdf (38 pages, 433911 bytes).
+PDF statistics:
+ 301 PDF objects out of 1000 (max. 8388607)
+ 207 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,38 @@
+%==============================================================================
+\section{Solution de principe}
+%==============================================================================
+
+\begin{frame} \FT{Solutions}
+    \BI
+        \o Routage des interruptions $\rightarrow$ Composant IOPIC 
+        \o Canaux de l'IOC $\rightarrow$ MULTI\_IOC 
+    \EI
+\end{frame} %-------------------------------------------------------------------
+
+\begin{frame} \FT{Solution pour affichage des machines virtuelles - Lecture}
+        \begin{center}
+                \includegraphics[width=10cm]{ttys_adv_r.pdf}
+        \end{center}
+        % Pour résoudre le problème de l'affichage des instances d'ALMOS il est nécessaire de créer un nouveau composant
+        % à partir du composant MULTI\_TTY.
+        % Le problème à résoudre était de limiter le nombre de terminaux crées par la simulation.
+        % Ce composant permet d'afficher sur un terminal, via une commande sur le terminal hyperviseur,
+        % l'une ou l'autre des instances d'ALMOS.
+        % Il y a donc un terminal pour l'hyperviseur et 4 terminaux pour toutes les instances d'ALMOS.
+        % Cette commande doit intéragir non seulement avec le MULTI_TTY_VT mais aussi avec le composant IOPIC.
+        % En effet lorsque l'on bascule l'affichage d'une fenêtre, on souhaite aussi que les interruptions soit
+        % redirigés vers l'instance que l'on est en train d'afficher.
+        % Il faut donc reconfiguré l'IOPIC pour qu'il envoie l'interruption à la bonne instance.
+\end{frame}
+
+\begin{frame} \FT{Solution pour affichage des machines virtuelles - Écriture}
+        \begin{center}
+                \includegraphics[width=10cm]{ttys_adv_w.pdf}
+        \end{center}
+\end{frame}
+
+\begin{frame} \FT{Solution pour le démarrage des machines virtuelles}
+        \begin{center}
+                \includegraphics[width=12cm]{boot_simple.pdf}
+        \end{center}
+\end{frame}

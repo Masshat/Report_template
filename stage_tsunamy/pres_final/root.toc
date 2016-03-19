@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Contexte et Sujet}{3}{0}{1}
+\beamer@sectionintoc {2}{D\'efinition des probl\`emes et solutions}{6}{0}{2}
+\beamer@sectionintoc {3}{Proc\'edure de recette}{9}{0}{3}
+\beamer@sectionintoc {4}{D\'emarrage d'une VM}{10}{0}{4}
+\beamer@sectionintoc {5}{D\'emarrage de 2 VMs ALMOS sur la plateforme finale}{13}{0}{5}
+\beamer@sectionintoc {6}{Conclusion et perspectives}{16}{0}{6}

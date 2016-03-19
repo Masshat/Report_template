@@ -1,0 +1,113 @@
+\relax 
+\catcode `:\active 
+\catcode `;\active 
+\catcode `!\active 
+\catcode `?\active 
+\providecommand\@newglossary[4]{}
+\@newglossary{main}{glg}{gls}{glo}
+\@newglossary{acronym}{alg}{acr}{acn}
+\select@language{french}
+\@writefile{toc}{\select@language{french}}
+\@writefile{lof}{\select@language{french}}
+\@writefile{lot}{\select@language{french}}
+\citation{greiner2009tsar}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Contexte du stage}{1}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}L'architecture TSAR}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}La plateforme}{1}}
+\citation{almaless2014conception}
+\citation{barham2003xen}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Syst\`eme d'exploitation ALMOS}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}Virtualisation}{2}}
+\citation{dall2014kvm}
+\citation{kivity2007kvm}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.1}La full-virtualisation}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.2}La para-virtualisation}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.3}Solution mat\'erielle}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.5}L'hyperviseur}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.6}La HAT}{5}}
+\newlabel{sec:hat}{{1.6}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Repr\'esentation de la plateforme}}{5}}
+\newlabel{fig:platform}{{1.1}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Exemple de traduction}}{7}}
+\newlabel{fig:hat}{{1.2}{7}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}D\'efinition et analyse du probl\`eme}{9}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Canaux des p\'eriph\'eriques}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Routage des interruptions}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}D\'emarrage d'une VM}{10}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Principe de la solution envisag\'ee}{11}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Solution au probl\`eme des canaux des p\'eriph\'eriques}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Solution au probl\`eme du routage des interruptions}{11}}
+\newlabel{sec:solint}{{3.2}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}D\'emarrage d'une VM}{12}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Identification des t\^aches \`a accomplir}{13}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}T\^aches}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}T\^ache 1 : D\'emarrage d'une VM sur le cluster 1}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}T\^ache 2 : Introduction IOPIC}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}T\^ache 3 : Composant MULTI\_IOC - D\'emarrage de deux VM}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.4}T\^ache 4 : shell hyperviseur}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.5}T\^ache 5 : MULTI\_TTY\_VT}{14}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Proc\'edure de recette}{15}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}R\'ealisation}{17}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Composant MULTI\_TTY\_VT}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}\'Ecriture dans un canal}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Segment m\'emoire du composant MULTI\_TTY\_VT}}{18}}
+\newlabel{fig:seg_tty}{{6.1}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Exemple de s\'election de fichier par le composant MULTI\_TTY\_VT}}{19}}
+\newlabel{fig:tunix}{{6.2}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}Gestion des interruptions}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.3}Multiplexage des terminaux virtuels}{19}}
+\newlabel{sec:muxterm}{{6.1.3}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Ex\'ecution de la fonction \relax \fontsize  {10.95}{13.6}\selectfont  \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \texttt  {switch\_display}\relax \fontsize  {12}{14.5}\selectfont  \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ }}{20}}
+\newlabel{fig:switch_display}{{6.3}{20}}
+\newlabel{sec:multi_ioc}{{6.1.3}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Composant MULTI\_IOC}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Composant MULTI\_HAT}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Fonctionnement MULTI\_HAT - MULTI\_IOC}}{21}}
+\newlabel{fig:multi_hatioc}{{6.4}{21}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}D\'emarrage d'une VM}{22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}Copie du code RHA}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Proc\'edure de d\'emarrage : placement RHA}}{23}}
+\newlabel{fig:rha_placement}{{6.5}{23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Appel de fonction}{23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}Coh\'erence des caches}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Exemples d'ex\'ecution, mise en \'evidence du probl\`eme relatif \`a la coh\'erence des caches}}{25}}
+\newlabel{fig:cc}{{6.6}{25}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Exp\'erimentations et r\'esultats}{26}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Validation de la proc\'edure de recette}{26}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Ex\'ecution de 2 VMs sur la plateforme finale}{27}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.1}\'Etat initial}{27}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Lancement de la premi\`ere instance}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces \'Etat initial}}{28}}
+\newlabel{fig:etatinit}{{7.1}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Lancement de la premi\`ere instance}}{29}}
+\newlabel{fig:almos1}{{7.2}{29}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.3}Lancement de la seconde instance}{29}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.4}Commande switch}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Lancement de la seconde instance}}{31}}
+\newlabel{fig:almos2}{{7.3}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces R\'esultat de l'ex\'ecution de la commande \relax \fontsize  {10.95}{13.6}\selectfont  \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \texttt  {switch\_all}\relax \fontsize  {12}{14.5}\selectfont  \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ }}{32}}
+\newlabel{fig:switch}{{7.4}{32}}
+\bibstyle{unsrt}
+\bibdata{rapport}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Conclusion et perspectives}{33}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\bibcite{greiner2009tsar}{1}
+\bibcite{almaless2014conception}{2}
+\bibcite{barham2003xen}{3}
+\bibcite{dall2014kvm}{4}
+\bibcite{kivity2007kvm}{5}

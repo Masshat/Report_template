@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{greiner2009tsar}
+Alain Greiner.
+\newblock Tsar: a scalable, shared memory, many-cores architecture with global
+  cache coherence.
+\newblock In {\em 9th International Forum on Embedded MPSoC and Multicore
+  (MPSoC'09)}, volume~15, 2009.
+
+\bibitem{almaless2014conception}
+Ghassan Almaless.
+\newblock {\em Conception et r{\'e}alisation d'un syst{\`e}me d'exploitation
+  pour des processeurs many-cores}.
+\newblock PhD thesis, Universit{\'e} Pierre et Marie Curie-Paris VI, 2014.
+
+\bibitem{barham2003xen}
+Paul Barham, Boris Dragovic, Keir Fraser, Steven Hand, Tim Harris, Alex Ho,
+  Rolf Neugebauer, Ian Pratt, and Andrew Warfield.
+\newblock Xen and the art of virtualization.
+\newblock {\em ACM SIGOPS Operating Systems Review}, 37(5):164--177, 2003.
+
+\bibitem{dall2014kvm}
+Christoffer Dall and Jason Nieh.
+\newblock Kvm/arm: The design and implementation of the linux arm hypervisor.
+\newblock In {\em Proceedings of the 19th international conference on
+  Architectural support for programming languages and operating systems}, pages
+  333--348. ACM, 2014.
+
+\bibitem{kivity2007kvm}
+Avi Kivity, Yaniv Kamay, Dor Laor, Uri Lublin, and Anthony Liguori.
+\newblock kvm: the linux virtual machine monitor.
+\newblock In {\em Proceedings of the Linux Symposium}, volume~1, pages
+  225--230, 2007.
+
+\end{thebibliography}

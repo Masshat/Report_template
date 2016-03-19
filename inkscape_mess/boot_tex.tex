@@ -1,0 +1,76 @@
+\documentclass[8pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage[french]{babel}
+\usepackage[top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{caption}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{listings}
+\raggedbottom
+
+
+\newcommand{\code}[1] {\small\texttt{#1}\normalsize}
+\newcommand{\lbar}[1] {$\overline{#1}$}
+\newcommand{\ble}[0] {$\bullet$ \space}
+
+\geometry{hmargin=2.5cm, vmargin=1cm}
+
+\begin{document}
+
+\section*{Boot}
+\subsection*{Init}
+Lors de l'initialisation tous les processeurs exécutent le même code (celui de l'hyperviseur). Tous les processeurs à l'exception de P0 $C_0$ se mettent en attente d'une IPI (instruction wait). Le processeur P0 $C_0$ exécute le shell hyperviseur.
+
+Le processeur P0 $C_0$ attend les commandes rentrées par l'utilisateur.
+
+\subsection*{Allocation}
+Lorsque l'utilisateur demande le lancement d'une instance d'almos (ex : run -nc 2 -i 6 (avec nc = nombre de clusters, i = numéro de l'instance)), l'hyperviseur doit :
+\begin{itemize}
+        \item allouer le nombre de clusters demandé (si disponible)
+        \item sélectionner le canal de l'IOC correspondant à l'instance demandée (ici, il s'agit du canal numéro 6)
+        \item allouer un canal du TTY, contenant 4 sous canaux
+        \item allouer un canal pour le Frame buffer (même index que celui du TTY)
+\end{itemize}
+
+\subsection*{Arch-info}
+
+L'hyperviseur construit le arch-info à partir des informations acquises pendant la phase d'allocation.
+Il copie ensuite le Arch-info et le bootloader aux adresses définies par l'instance. 
+
+\subsection*{Copie du code d'activation des Hats}
+
+L'activation des Hats étant réalisée par les processeurs de l'instance, il est nécessaire de copier le code d'activation des Hats (se trouvant dans la ROM) à deux endroits :
+\begin{itemize}
+        \item Dans la RAM du cluster hyperviseur
+        \item Dans la RAM du cluster 0 de l'instance
+\end{itemize}
+Une fois la Hat activée les processeurs n'auront plus accès au cluster hyperviseur.
+
+
+Avant l'activation de la Hat, le code qui sera exécuté se trouvera dans le cluster hyperviseur. Après l'activation, la Hat redirigera les requêtes venant du processeur vers la RAM du cluster 0 de l'instance.
+Ce code doit donc être au même offset dans la RAM hyperviseur et dans le cluster 0 de l'instance. 
+
+\subsection*{Configuration des Hats}
+
+L'hyperviseur, configure les Hats des cluters de l'instance et active les Hats des DMAs.
+
+\subsection*{Routage des interruptions}
+
+L'hyperviseur configure les multiplexeurs
+
+\subsection*{Mise en place de la Hat de P0 $C_0i$}
+
+Lorsque l'hyperviseur (s'exécutant sur P0 $C_0i$) activera sa Hat, il passera de l'espace d'adressage machine, à l'espace d'adressage physique. Le processeur P0 $C_0i$ n'aura donc plus accès au code présent sur le cluster hyperviseur. Pour pouvoir continuer à exécuter le code d'activation de la Hat après l'avoir activée, il est nécessaire de copier ce code dans un des clusters de l'instance. Il sera copié à l'adresse machine produite par la Hat. 
+
+
+\subsection*{Bootloader}
+Une fois la Hat activée, l'hyperviseur (s'exécutant toujours sur P0 $C_0i$) envoie une IPI à tous les autres processeurs de l'instance en spécifiant l'adresse du bootloader de l'OS invité et saute à cette adresse.
+
+\end{document}
